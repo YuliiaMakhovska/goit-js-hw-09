@@ -1,0 +1,2 @@
+function e(){return`#${Math.floor(16777215*Math.random()).toString(16)}`}const t=document.querySelector("[data-start]"),d=document.querySelector("[data-stop]"),r=document.querySelector("body");d.disabled=!1,t.addEventListener("click",(function(){r.style.backgroundColor=e(),timerId=setInterval((()=>{r.style.backgroundColor=e()}),1e3),d.disabled=!1,t.disabled=!0})),d.addEventListener("click",(function(){clearInterval(timerId),d.disabled=!1,t.disabled=!1}));
+//# sourceMappingURL=01-color-switcher.43aa46b2.js.map
