@@ -38,3 +38,16 @@ img {
   text-transform: uppercase;
   font-weight: 500;
 }
+button {
+  background-color: crimson;
+  border-radius: 8px;
+  border-style: none;
+  color:#fafafa;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+button:hover,
+button:focus {
+  background-color: #EA4C89;
+}
