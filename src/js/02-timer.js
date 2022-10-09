@@ -12,6 +12,7 @@ const daysSeconds = document.querySelector('span[data-seconds]');
 const CURRENT_DATE = new Date();
 let SELECTED_DATE = new Date();
 let deltaTime;
+let timerId = null;
 
 btnStart.disabled = false;
 const options = {
