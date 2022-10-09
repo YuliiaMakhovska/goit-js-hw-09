@@ -10,6 +10,7 @@ stopBtn.disabled = false;
 
 startBtn.addEventListener('click', onStartBtn);
 stopBtn.addEventListener('click', onStopBtn);
+let timerId = null;
 
 function onStartBtn() {
   timerId = setInterval(() => {
