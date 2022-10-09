@@ -42,4 +42,5 @@ function onSubmitForm(e) {
       });
     delay += step;
   }
+  refs.form.reset();
 }
